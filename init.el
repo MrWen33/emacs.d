@@ -130,6 +130,10 @@
 ;;(require 'init-twitter)
 ;; (require 'init-mu)
 (require 'init-ledger)
+
+;; custom package
+(require 'init-key-chord)
+(require 'init-evil)
 ;; Extra packages which don't require any configuration
 
 (require-package 'sudo-edit)
